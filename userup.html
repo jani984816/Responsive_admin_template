@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <title>Management System</title> -->
+        
+        <!-- Font Awesome -->
+        <!-- <script src="https://kit.fontawesome.com/5734d4928d.js"></script> -->
+        <link rel="stylesheet" href="../../fontcss/all.css">
+
+        <!-- Google font -->
+        <link href="https://fonts.googleapis.com/css?family=Candal|Lora&display=swap" rel="stylesheet">
+
+        <!-- Custom Styling -->
+        <link rel="stylesheet" href="css/style.css">
+
+        
+        <!-- Admin Styling -->
+        <link rel="stylesheet" href="css/admin.css">
+
+        <title>Admin Section - Add User</title>
+
+    </head>
+    <body>
+        <header>
+                <div class="logo">
+                    <img src="images/cybill.png">
+                </div>
+            <div class="logo">
+                <h1 class="logo-text"><span>Cybill</span>Techs</h1>
+            </div>
+            <i class="fa fa-bars menu-toggle"></i>
+            <ul class="nav">
+                
+                    <li><a href="userin.html">User</a></li>
+                    <li><a href="adminin.html">Admin</a></li>
+                    <li><a href="superadmin.html">Super Admin</a></li>
+            </ul>
+        </header>
+
+    <!-- Admin Wrapper --> 
+    <div class="admin-wrapper">
+
+        <!-- Left Slidebar -->
+        <!-- <div class="left-sidebar">
+            
+
+        </div> -->
+        <!-- //Left Slidebar -->
+
+        <!-- Admin Content -->
+        <div class="admin-content">
+                <form action="userin.html" method="post">
+            <h2 class="form-title heading">UsernLogin</h2>
+
+            <div class="auther-content">
+            
+
+                <form action="userup.html" method="post">
+                    <!-- Rey jani  ikkada register form di video chusi add chai vachaka/ -->
+                    <div>
+                        <label>Username</label>
+                        <input type="text" name="username" class="text-input">
+                    </div>
+                    <div>
+                        <label>Email</label>
+                        <input type="email" name="email" class="text-input">
+                    </div>
+                    <div>
+                        <lable>Contact Number</lable>
+                        <input type="number" name="number" class="text-input">
+                    </div>
+                    <div>
+                        <lable>Address</lable><br>
+                        <input class="text-input" name="address" type="text">
+                    </div>
+                    <div>
+                        <lable>Account Details</lable>
+                        <input type="number" name="accountdetails" class="text-input">
+                    </div>
+                   
+                    <div> 
+                        <label class="education"><b> Higher Eduction : </b></label>
+                        <div> College/University</div> 
+                        <input type="text" name="collegename" class="text-input">
+                        <div>Year Of Passing</div>
+                        <input type="month" name="year" class="text-input">
+                        <div>Percentage(%)</div>
+                        <input type="text" name="percentage" class="text-input">
+                    </div>
+                    <div>
+                        <label class="education"><b> Intermidiate :</b></label>
+                        <div> College</div> 
+                        <input type="text" name="collegename" class="text-input">
+                        <div>Year Of Passing</div>
+                        <input type="month" name="year" class="text-input">
+                        <div>Percentage(%)</div>
+                        <input type="text" name="percentage" class="text-input">
+
+                    </div>
+                    <div>
+                        <lable>Photo Upload</lable>
+                        <input type="file" name="image" class="text-input">
+                    </div>
+                    <div>
+                        <lable>Joining Date</lable>
+                        <input type="month" name="month" class="text-input">
+                    </div>
+                    <div>
+                        <lable>Reporting Date</lable>
+                        <input type="month" name="month" class="text-input">
+                    </div>
+                    <div>
+                        <lable>Gender</lable>
+                        <input type="radio" name="gender" value="Male" >Male
+                        <input type="radio" name="gender" value="Female" >Female
+                    </div>
+                    <div>
+                        <button type="submit" class="btn btn-big">Submit</button>
+                    </div>
+                    <p>Or <a href="userin.html">Sign in</a></p>
+                </form>
+
+            </div>
+
+        </div>
+        <!-- //Admin Content -->
+    </div>
+    <!-- //Admin Wrapper -->
+    
+        <!-- JQuery -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+        <!-- CKeditor -->
+        <script src="https://cdn.ckeditor.com/ckeditor5/16.0.0/classic/ckeditor.js"></script>
+
+        <!-- Custom Script -->
+        <script src="js/scripts.js"></script>
+    </body>
+    </html>
+
